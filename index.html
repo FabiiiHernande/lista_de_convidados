@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Convidados</title>
+    <script src="JS/Lista.js" defer></script>
+    <link rel="stylesheet" href="CSS/Style.css">
+</head>
+<body>
+
+    <main>
+    
+    <div class="header">
+        <h2>Lista de Convidados</h2>
+    </div>
+    
+    <div class="convidados">
+        <input type="text" id="i_convidado" placeholder="Digite o Nome do Convidado">
+    </div>
+    
+    <div class="lista">
+        <ol id="i_lista"></ol>
+           
+    </div>
+
+    <div class="btt">
+    
+            <button onclick="cadastra_convidado()" id="btt_01">Inserir Convidado</button>
+            <button onclick="remove_convidado()" id="btt_02">Remover Convidado</button>
+        </div>
+    
+    </main>
+
+        
+</body>
+</html>
